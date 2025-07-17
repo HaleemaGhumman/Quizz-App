@@ -1,0 +1,81 @@
+import { Topic } from '.'; 
+
+export const Docker: Topic = {
+  topic: 'Docker',
+  level: 'Intermediate',
+  totalQuestions: 10,
+  totalScore: 10,
+  totalTime: 300,
+  questions: [
+    {
+      question: 'What is Docker used for?',
+      choices: ['Creating mobile apps', 'Managing virtual machines', 'Containerizing applications', 'Version control'],
+      type: 'MCQs',
+      correctAnswers: ['Containerizing applications'],
+      score: 1,
+    },
+    {
+      question: 'Which command lists all Docker containers?',
+      choices: ['docker list', 'docker ps', 'docker show', 'docker containers'],
+      type: 'MCQs',
+      correctAnswers: ['docker ps'],
+      score: 1,
+    },
+    {
+      question: 'What is a Docker image?',
+      choices: ['A virtual machine', 'A running container', 'A template to create containers', 'A code editor'],
+      type: 'MCQs',
+      correctAnswers: ['A template to create containers'],
+      score: 1,
+    },
+    {
+      question: 'How do you build a Docker image?',
+      choices: ['docker create', 'docker run', 'docker build', 'docker init'],
+      type: 'MCQs',
+      correctAnswers: ['docker build'],
+      score: 1,
+    },
+    {
+      question: 'What file is used to define instructions to build a Docker image?',
+      choices: ['Dockerfile', 'Imagefile', 'Buildfile', 'Containerfile'],
+      type: 'MCQs',
+      correctAnswers: ['Dockerfile'],
+      score: 1,
+    },
+    {
+      question: 'Which command removes a Docker container?',
+      choices: ['docker stop', 'docker delete', 'docker rm', 'docker rmi'],
+      type: 'MCQs',
+      correctAnswers: ['docker rm'],
+      score: 1,
+    },
+    {
+      question: 'What does `docker-compose` help with?',
+      choices: ['Composing UI', 'Running multiple containers', 'Debugging code', 'Writing Dockerfiles'],
+      type: 'MCQs',
+      correctAnswers: ['Running multiple containers'],
+      score: 1,
+    },
+    {
+      question: 'How do you start a container from an image?',
+      choices: ['docker boot', 'docker start', 'docker create', 'docker run'],
+      type: 'MCQs',
+      correctAnswers: ['docker run'],
+      score: 1,
+    },
+    {
+      question: 'What command stops a running container?',
+      choices: ['docker stop', 'docker pause', 'docker kill', 'docker exit'],
+      type: 'MCQs',
+      correctAnswers: ['docker stop'],
+      score: 1,
+    },
+    {
+      question: 'Which command removes Docker images?',
+      choices: ['docker rm', 'docker remove', 'docker delete', 'docker rmi'],
+      type: 'MCQs',
+      correctAnswers: ['docker rmi'],
+      score: 1,
+    },
+  ],
+};

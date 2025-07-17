@@ -1,0 +1,19 @@
+Deleting node modules from github
+
+cd /d "F:\TechnoSphere Internship\Web development Quiz"
+git add .gitignore
+git commit -m "Removed node_modules from repo and updated .gitignore"
+git pull --rebase origin main
+git push origin main
+
+
+
+
+
+Updating project on github
+git add .
+git commit -m "Fix build and node version for Netlify"
+git pull origin main --rebase
+git push origin main --force
+
+git push origin main

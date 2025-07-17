@@ -1,0 +1,81 @@
+import { Topic } from '.';
+
+export const Postgresql: Topic = {
+  topic: 'PostgreSQL',
+  level: 'Intermediate',
+  totalQuestions: 10,
+  totalScore: 10,
+  totalTime: 300,
+  questions: [
+    {
+      question: 'PostgreSQL is an example of what type of database?',
+      choices: ['NoSQL', 'Relational', 'Document', 'Graph'],
+      type: 'MCQs',
+      correctAnswers: ['Relational'],
+      score: 1,
+    },
+    {
+      question: 'What is the default port number for PostgreSQL?',
+      choices: ['27017', '3306', '5432', '1521'],
+      type: 'MCQs',
+      correctAnswers: ['5432'],
+      score: 1,
+    },
+    {
+      question: 'Which command is used to connect to a PostgreSQL database from the command line?',
+      choices: ['mysql', 'pg_connect', 'psql', 'mongo'],
+      type: 'MCQs',
+      correctAnswers: ['psql'],
+      score: 1,
+    },
+    {
+      question: 'Which SQL statement is used to create a new table in PostgreSQL?',
+      choices: ['NEW TABLE', 'CREATE NEW', 'MAKE TABLE', 'CREATE TABLE'],
+      type: 'MCQs',
+      correctAnswers: ['CREATE TABLE'],
+      score: 1,
+    },
+    {
+      question: 'Which data type is used for storing variable-length strings in PostgreSQL?',
+      choices: ['INT', 'VARCHAR', 'TEXT', 'STRING'],
+      type: 'MCQs',
+      correctAnswers: ['VARCHAR'],
+      score: 1,
+    },
+    {
+      question: 'Which clause is used in SQL to filter records?',
+      choices: ['ORDER BY', 'FILTER BY', 'WHERE', 'HAVING'],
+      type: 'MCQs',
+      correctAnswers: ['WHERE'],
+      score: 1,
+    },
+    {
+      question: 'Which keyword is used to prevent duplicate rows in a query result?',
+      choices: ['ONLY', 'UNIQUE', 'DISTINCT', 'LIMIT'],
+      type: 'MCQs',
+      correctAnswers: ['DISTINCT'],
+      score: 1,
+    },
+    {
+      question: 'Which PostgreSQL command is used to list all databases?',
+      choices: ['\\dt', '\\du', '\\l', '\\listall'],
+      type: 'MCQs',
+      correctAnswers: ['\\l'],
+      score: 1,
+    },
+    {
+      question: 'What is the purpose of the `JOIN` clause in SQL?',
+      choices: ['To add constraints', 'To combine rows from two or more tables', 'To create indexes', 'To delete data'],
+      type: 'MCQs',
+      correctAnswers: ['To combine rows from two or more tables'],
+      score: 1,
+    },
+    {
+      question: 'Which command is used to remove a table from a PostgreSQL database?',
+      choices: ['REMOVE TABLE', 'DROP TABLE', 'DELETE TABLE', 'CLEAR TABLE'],
+      type: 'MCQs',
+      correctAnswers: ['DROP TABLE'],
+      score: 1,
+    },
+  ],
+};
