@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 @import './styles/fonts.module.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
 @theme {
   --color-primary-text: #11052c;
